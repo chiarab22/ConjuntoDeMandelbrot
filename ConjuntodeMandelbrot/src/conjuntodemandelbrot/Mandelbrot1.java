@@ -204,7 +204,7 @@ public class Mandelbrot1 extends javax.swing.JFrame {
 
                 int velocidad = mandelbrot(x, y);
 
-                g.setColor(Color.getHSBColor((velocidad)/(float)160, 1, 1));
+                g.setColor(Color.getHSBColor((velocidad)/(float)27, 1, 1));
                 g.drawRect(i, j, 1, 1);
             }
         }
